@@ -1,0 +1,25 @@
+{
+  "id": "event-director-ui",
+  "name": "事件导演台",
+  "version": "0.1.0",
+  "description": "把一组命令编排成带时间轴的剧情脚本，一键按序执行，专为服主活动设计。",
+  "locales": {
+    "en-US": {
+      "name": "Event Director",
+      "description": "Arrange commands into a timeline-based script and execute them in sequence."
+    }
+  },
+  "author": {
+    "name": "FPS_Z",
+    "url": "https://github.com/FPSZ"
+  },
+  "main": "main.lua",
+  "permissions": ["log", "storage", "console", "server", "ui"],
+  "sidebar": {
+    "mode": "self",
+    "label": "事件导演台",
+    "icon": "clapperboard",
+    "priority": 10,
+    "after": "console"
+  }
+}
